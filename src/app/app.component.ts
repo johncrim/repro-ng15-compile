@@ -7,7 +7,7 @@ import { OnlineService } from '../bug-class-init/Online.service';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'repro-ng15-init';
+  title = 'repro-ng15-compile';
 
   constructor(private readonly _online: OnlineService) { }
 

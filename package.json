@@ -1,5 +1,5 @@
 {
-  "name": "repro-ng15-init",
+  "name": "repro-ng15-compile",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
