@@ -17,17 +17,19 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "target": "ES2022",
-    "module": "ES2022",
-    "useDefineForClassFields": false,
+    "module": "ESNext",
+    // "useDefineForClassFields": false,
     "lib": [
       "ES2022",
       "dom"
     ]
   },
   "angularCompilerOptions": {
-    "enableI18nLegacyMessageIdFormat": false,
+    "enableIvy": true,
+    "compilationMode": "full",
+    "strictTemplates": true,
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
-    "strictTemplates": true
+    "fullTemplateTypeCheck": true
   }
 }

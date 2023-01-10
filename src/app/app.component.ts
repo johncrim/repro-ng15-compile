@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { OnlineService } from '../bug-class-init/Online.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'repro-ng15-init';
+
+  constructor(private readonly _online: OnlineService) { }
+
 }
