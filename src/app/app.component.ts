@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { OnlineService } from '../bug-class-init/Online.service';
+import { OnlineService2 } from '../bug-class-compile/Online.service2';
 
 @Component({
   selector: 'app-root',
@@ -9,6 +9,6 @@ import { OnlineService } from '../bug-class-init/Online.service';
 export class AppComponent {
   title = 'repro-ng15-compile';
 
-  constructor(private readonly _online: OnlineService) { }
+  constructor(private readonly _online: OnlineService2) { }
 
 }
